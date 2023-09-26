@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "enter day"
+read day
+
+if [[ $day == "saturday" && $day == "sunday" ]]; then
+	echo "holiday" 
+else
+	echo "weekday"
+fi
+
